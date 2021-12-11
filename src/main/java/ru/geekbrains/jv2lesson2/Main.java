@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         String[][] arr = new String[][]{
-                {"1","2","3","4"} ,
+                {"1","l","3","4"} ,
                 {"5","6","7","8"},
                 {"9","10","11","12"},
                 {"13","14","15","16"}};
@@ -48,39 +48,7 @@ public class Main {
         }
         return count;
     }
-  /* public static void main(String[] args) {
-int x=0;
-int y =0;
-      Scanner scanner = new Scanner(System.in);
-         try {
-            System.out.println("Введите число строк: ");
-            x = scanner.nextInt();
-            System.out.println("Введите число колонок: ");
-            y = scanner.nextInt();
 
-         String [][] arr= new String[x][y];
-         arr = new String[][]{
-                 {"1","2","3","4"} ,
-                 {"5","6","7","8"},
-                 {"9","10","11","12"},
-                 {"13","14","15","16"}
-};
-         int sumArr =0;
-         for (int i = 0; i < arr.length; i++) {
-
-for (int j = 0; j <arr[i].length ; j++) {
-System.out.println( sumArr += Integer.parseInt(arr[i][j]));
-}
-
-}
-      } catch ( NumberFormatException e) {
-         System.out.println("Error");
-      } finally {
-         System.out.println("test");
-      }
-
-   }
-*/
 
       }
 
