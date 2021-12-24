@@ -1,9 +1,12 @@
 package ru.geekbrains.jv2lesson3;
 
 import java.util.ArrayList;
+<<<<<<< HEAD
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.Set;
+=======
+>>>>>>> origin/HW3
 
 public class ArrayWords {
     public static void main(String[] args) {
@@ -24,6 +27,7 @@ public class ArrayWords {
         numbers.add("Два");
         numbers.add("Один");
         System.out.printf("Вся коллекция  составляет: %n" + numbers);
+<<<<<<< HEAD
         Set<String> numbSet = new LinkedHashSet<>(numbers);
         System.out.println("\nУникальные элементы коллекции :\n" + numbSet);
 
@@ -34,6 +38,8 @@ public class ArrayWords {
            countNumbers.put(i,countNumber== null? 1 : countNumber +1);
         }
         System.out.println("\n Количество повторений слов в коллекции\n" + countNumbers);
+=======
+>>>>>>> origin/HW3
     }
 
 
